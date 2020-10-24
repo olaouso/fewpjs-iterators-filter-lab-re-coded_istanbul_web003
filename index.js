@@ -1,15 +1,15 @@
 function findMatching (array, string) {
   let match =  array.filter(x => x.toLowerCase() === string.toLowerCase());
-  return function1;
+  return match;
 }
 
 
 function fuzzyMatch(array, string) {
-    let function2 = array.filter( x=> x[0]=== string[0]);
-    return function2;
+    let substring = array.filter( x=> x[0]=== string[0]);
+    return substring;
 }
 
 function matchName(array, string) {
-    let function3 = array.filter(x => x.name ==string )
-    return function3;
+    let object = array.filter(x => x.name ==string )
+    return object;
 } 
